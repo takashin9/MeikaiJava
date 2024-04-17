@@ -5,7 +5,7 @@ class Sort2 {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.print("変数a："); int a = stdIn.nextInt();
-        System.out.print("変数B："); int b = stdIn.nextInt();
+        System.out.print("変数b："); int b = stdIn.nextInt();
 
         if (a > b) {
             int t = a;
