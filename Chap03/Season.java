@@ -16,5 +16,7 @@ class Season {
         } else if (month == 12 || month == 1 || month == 2) {
             System.out.println("それは冬です。");
         }
+
+        stdIn.close();
     }
 }
