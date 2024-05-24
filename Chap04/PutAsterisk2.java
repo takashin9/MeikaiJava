@@ -9,7 +9,7 @@ class PutAsterisk2 {
 
         int i = 1;
         while (i <= n) {
-            System.out.print("*");
+            System.out.print('*');
             i++;
         }
         System.out.println();
