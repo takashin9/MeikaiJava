@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Main {
@@ -28,5 +29,12 @@ public class Main {
     }
     static void printMaxElement(int[] arr) {
         System.out.println("最大値は" + max(arr) + "です");
+=======
+class Main {
+    public static void main(String[] args) {
+        String str1 = "こんにちは";
+        String str2 = new String("こんにちは");
+        System.out.println(str1 == str2);
+>>>>>>> 26ae461bfde5f5fe3640f6f7f9f7d721474068c1
     }
 }
