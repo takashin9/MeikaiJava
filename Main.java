@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
+        String str = "abcde";
+        for ()
+=======
         Scanner input = new Scanner(System.in);
         int n = inputPositiveInteger();
         int[] a = new int[n];
@@ -28,5 +32,6 @@ public class Main {
     }
     static void printMaxElement(int[] arr) {
         System.out.println("最大値は" + max(arr) + "です");
+>>>>>>> 6641b5f7117762da8ddb49815b58a8ffa6328bcc
     }
 }
