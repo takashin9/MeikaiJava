@@ -9,6 +9,18 @@ class Human {
         this.height = height;
     }
 
+    String getName() {
+        return name;
+    }
+
+    double getWeight() {
+        return weight;
+    }
+
+    double getHeight() {
+        return height;
+    }
+
     double calculateBMI() {
         return weight / (height * height);
     }
